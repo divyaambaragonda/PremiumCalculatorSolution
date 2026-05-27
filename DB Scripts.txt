@@ -1,0 +1,277 @@
+-- =============================================
+-- DATABASE CREATION
+-- =============================================
+
+CREATE DATABASE PremiumCalculatorDB;
+GO
+
+USE PremiumCalculatorDB;
+GO
+
+-- =============================================
+-- OCCUPATION RATINGS MASTER TABLE
+-- =============================================
+
+CREATE TABLE OccupationRatings
+(
+    OccupationId INT PRIMARY KEY IDENTITY(1,1),
+
+    OccupationName VARCHAR(50) NOT NULL,
+
+    RatingCategory VARCHAR(50) NOT NULL,
+
+    RatingFactor DECIMAL(10,2) NOT NULL,
+     
+    IsActive CHAR(1) DEFAULY 'Y',
+
+    CreatedDate DATETIME DEFAULT GETDATE()
+);
+GO
+
+-- =============================================
+-- MEMBERS TABLE
+-- =============================================
+
+CREATE TABLE Members
+(
+    MemberId INT PRIMARY KEY IDENTITY(1,1),
+
+    Name VARCHAR(100) NOT NULL,
+
+    AgeNextBirthday INT NOT NULL,
+
+    DateOfBirth DATE NOT NULL,
+
+    OccupationId INT NOT NULL,
+
+    DeathSumInsured DECIMAL(18,2) NOT NULL,
+
+    MonthlyPremium DECIMAL(18,2) NOT NULL,
+
+    CreatedDate DATETIME DEFAULT GETDATE(),
+
+    CONSTRAINT FK_Members_OccupationRatings
+    FOREIGN KEY (OccupationId)
+    REFERENCES OccupationRatings(OccupationId)
+);
+GO
+
+-- =============================================
+-- INSERT MASTER DATA
+-- =============================================
+
+INSERT INTO OccupationRatings
+(
+    OccupationName,
+    RatingCategory,
+    RatingFactor
+)
+VALUES
+('Doctor', 'Professional', 1.50),
+
+('Author', 'White Collar', 2.25),
+
+('Cleaner', 'Light Manual', 11.50),
+
+('Farmer', 'Heavy Manual', 31.75),
+
+('Mechanic', 'Heavy Manual', 31.75),
+
+('Florist', 'Light Manual', 11.50),
+
+('Other', 'Heavy Manual', 31.75);
+GO
+
+-- =============================================
+-- GET OCCUPATION LIST
+-- =============================================
+
+CREATE PROCEDURE USP_GetOccupations
+AS
+BEGIN
+
+    SET NOCOUNT ON;
+
+    SELECT
+        OccupationId,
+        OccupationName,
+        RatingCategory,
+        RatingFactor
+    FROM OccupationRatings
+    ORDER BY OccupationName;
+
+END
+GO
+
+-- =============================================
+-- GET OCCUPATION FACTOR BY ID
+-- =============================================
+
+CREATE PROCEDURE USP_GetOccupationFactor
+(
+    @OccupationId INT
+)
+AS
+BEGIN
+
+    SET NOCOUNT ON;
+
+    SELECT
+        OccupationId,
+        OccupationName,
+        RatingFactor
+    FROM OccupationRatings
+    WHERE OccupationId = @OccupationId;
+
+END
+GO
+
+-- =============================================
+-- INSERT MEMBER DETAILS
+-- =============================================
+
+CREATE PROCEDURE USP_InsertMember
+(
+    @Name VARCHAR(100),
+
+    @AgeNextBirthday INT,
+
+    @DateOfBirth DATE,
+
+    @OccupationId INT,
+
+    @DeathSumInsured DECIMAL(18,2),
+
+    @MonthlyPremium DECIMAL(18,2)
+)
+AS
+BEGIN
+
+    SET NOCOUNT ON;
+
+    BEGIN TRY
+
+        INSERT INTO Members
+        (
+            Name,
+            AgeNextBirthday,
+            DateOfBirth,
+            OccupationId,
+            DeathSumInsured,
+            MonthlyPremium
+        )
+        VALUES
+        (
+            @Name,
+            @AgeNextBirthday,
+            @DateOfBirth,
+            @OccupationId,
+            @DeathSumInsured,
+            @MonthlyPremium
+        );
+
+        SELECT
+            1 AS Status,
+            'Member details inserted successfully'
+            AS Message;
+
+    END TRY
+
+    BEGIN CATCH
+
+        SELECT
+            0 AS Status,
+            ERROR_MESSAGE() AS Message;
+
+    END CATCH
+
+END
+GO
+
+-- =============================================
+-- GET MEMBER DETAILS
+-- =============================================
+
+CREATE PROCEDURE USP_GetMembers
+AS
+BEGIN
+
+    SET NOCOUNT ON;
+
+    SELECT
+        M.MemberId,
+        M.Name,
+        M.AgeNextBirthday,
+        M.DateOfBirth,
+        O.OccupationName,
+        O.RatingCategory,
+        O.RatingFactor,
+        M.DeathSumInsured,
+        M.MonthlyPremium,
+        M.CreatedDate
+    FROM Members M
+    INNER JOIN OccupationRatings O
+        ON M.OccupationId = O.OccupationId
+    ORDER BY M.MemberId DESC;
+
+END
+GO
+
+-- =============================================
+-- GET MEMBER BY ID
+-- =============================================
+
+CREATE PROCEDURE USP_GetMemberById
+(
+    @MemberId INT
+)
+AS
+BEGIN
+
+    SET NOCOUNT ON;
+
+    SELECT
+        M.MemberId,
+        M.Name,
+        M.AgeNextBirthday,
+        M.DateOfBirth,
+        O.OccupationName,
+        O.RatingCategory,
+        O.RatingFactor,
+        M.DeathSumInsured,
+        M.MonthlyPremium,
+        M.CreatedDate
+    FROM Members M
+    INNER JOIN OccupationRatings O
+        ON M.OccupationId = O.OccupationId
+    WHERE M.MemberId = @MemberId;
+
+END
+GO
+
+-- =============================================
+-- SAMPLE EXECUTION
+-- =============================================
+
+EXEC USP_GetOccupations;
+GO
+
+EXEC USP_GetOccupationFactor 1;
+GO
+
+EXEC USP_InsertMember
+    @Name = 'John',
+
+    @AgeNextBirthday = 30,
+
+    @DateOfBirth = '1995-01-01',
+
+    @OccupationId = 1,
+
+    @DeathSumInsured = 100000,
+
+    @MonthlyPremium = 54000;
+GO
+
+EXEC USP_GetMembers;
+GO
