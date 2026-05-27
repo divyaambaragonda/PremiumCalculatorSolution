@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PremiumCalculator.Web/1.0.0": {
+        "dependencies": {
+          "PremiumCalculator.Core": "1.0.0"
+        },
+        "runtime": {
+          "PremiumCalculator.Web.dll": {}
+        }
+      },
+      "PremiumCalculator.Core/1.0.0": {
+        "runtime": {
+          "PremiumCalculator.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PremiumCalculator.Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PremiumCalculator.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

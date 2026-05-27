@@ -1,0 +1,11 @@
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Core\bin\Debug\net8.0\PremiumCalculator.Core.deps.json
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Core\bin\Debug\net8.0\PremiumCalculator.Core.dll
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Core\bin\Debug\net8.0\PremiumCalculator.Core.pdb
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Core\obj\Debug\net8.0\PremiumCalculator.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Core\obj\Debug\net8.0\PremiumCalculator.Core.AssemblyInfoInputs.cache
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Core\obj\Debug\net8.0\PremiumCalculator.Core.AssemblyInfo.cs
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Core\obj\Debug\net8.0\PremiumCalculator.Core.csproj.CoreCompileInputs.cache
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Core\obj\Debug\net8.0\PremiumCalculator.Core.dll
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Core\obj\Debug\net8.0\refint\PremiumCalculator.Core.dll
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Core\obj\Debug\net8.0\PremiumCalculator.Core.pdb
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Core\obj\Debug\net8.0\ref\PremiumCalculator.Core.dll

@@ -1,0 +1,101 @@
+2026-05-27 16:08:15.306 +05:30 [INF] Now listening on: https://localhost:7239
+2026-05-27 16:08:15.333 +05:30 [INF] Now listening on: http://localhost:5167
+2026-05-27 16:08:15.476 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-27 16:08:15.511 +05:30 [INF] Hosting environment: Development
+2026-05-27 16:08:15.512 +05:30 [INF] Content root path: C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.API
+2026-05-27 16:08:16.618 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/swagger - null null
+2026-05-27 16:08:16.914 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/swagger - 301 0 null 297.9382ms
+2026-05-27 16:08:16.938 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/swagger/index.html - null null
+2026-05-27 16:08:17.094 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/swagger/index.html - 200 null text/html;charset=utf-8 156.2799ms
+2026-05-27 16:08:17.102 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/swagger/swagger-ui.css - null null
+2026-05-27 16:08:17.102 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/swagger/swagger-ui-bundle.js - null null
+2026-05-27 16:08:17.133 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-27 16:08:17.148 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/_vs/browserLink - null null
+2026-05-27 16:08:17.170 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-05-27 16:08:17.176 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 42.7676ms
+2026-05-27 16:08:17.186 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/swagger/swagger-ui.css - 200 152034 text/css 83.9567ms
+2026-05-27 16:08:17.102 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-27 16:08:17.302 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-05-27 16:08:17.314 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-05-27 16:08:17.328 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 225.9543ms
+2026-05-27 16:08:17.339 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 237.1129ms
+2026-05-27 16:08:17.345 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 197.0701ms
+2026-05-27 16:08:17.530 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/swagger/v1/swagger.json - null null
+2026-05-27 16:08:17.534 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/swagger/favicon-32x32.png - null null
+2026-05-27 16:08:17.542 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-05-27 16:08:17.546 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/swagger/favicon-32x32.png - 200 628 image/png 12.1096ms
+2026-05-27 16:08:17.562 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 32.6086ms
+2026-05-27 16:08:40.438 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/swagger/index.html - null null
+2026-05-27 16:08:40.446 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/swagger/index.html - 200 null text/html;charset=utf-8 8.5347ms
+2026-05-27 16:08:40.493 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-27 16:08:40.493 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/_vs/browserLink - null null
+2026-05-27 16:08:40.504 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 11.7134ms
+2026-05-27 16:08:40.531 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.7794ms
+2026-05-27 16:08:40.652 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/swagger/v1/swagger.json - null null
+2026-05-27 16:08:40.659 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.3472ms
+2026-05-27 16:09:28.908 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7239/api/Premium/calculate - application/json 131
+2026-05-27 16:09:28.918 +05:30 [INF] Executing endpoint 'PremiumCalculator.API.Controllers.PremiumController.Calculate (PremiumCalculator.API)'
+2026-05-27 16:09:28.948 +05:30 [INF] Route matched with {action = "Calculate", controller = "Premium"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Calculate(PremiumCalculator.Core.Models.MemberModel) on controller PremiumCalculator.API.Controllers.PremiumController (PremiumCalculator.API).
+2026-05-27 16:09:29.009 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Double'.
+2026-05-27 16:09:29.021 +05:30 [INF] Executed action PremiumCalculator.API.Controllers.PremiumController.Calculate (PremiumCalculator.API) in 66.8877ms
+2026-05-27 16:09:29.030 +05:30 [INF] Executed endpoint 'PremiumCalculator.API.Controllers.PremiumController.Calculate (PremiumCalculator.API)'
+2026-05-27 16:09:29.031 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7239/api/Premium/calculate - 200 null application/json; charset=utf-8 123.6517ms
+2026-05-27 16:10:11.441 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7239/api/premium/calculate - null null
+2026-05-27 16:10:11.444 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-05-27 16:10:11.448 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-05-27 16:10:11.450 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7239/api/premium/calculate - 405 0 null 9.4839ms
+2026-05-27 16:10:14.413 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7239/api/premium/calculate - null null
+2026-05-27 16:10:14.417 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-05-27 16:10:14.418 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-05-27 16:10:14.419 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7239/api/premium/calculate - 405 0 null 5.8179ms
+2026-05-27 16:10:34.535 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/api/premium/calculate - null null
+2026-05-27 16:10:34.559 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-05-27 16:10:34.560 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-05-27 16:10:34.561 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/api/premium/calculate - 405 0 null 26.2925ms
+2026-05-27 16:13:09.023 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/swagger/index.html - null null
+2026-05-27 16:13:09.046 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/swagger/index.html - 200 null text/html;charset=utf-8 23.7652ms
+2026-05-27 16:13:09.105 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/_vs/browserLink - null null
+2026-05-27 16:13:09.093 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-27 16:13:09.115 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 22.3652ms
+2026-05-27 16:13:09.168 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 64.0859ms
+2026-05-27 16:13:09.367 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/swagger/v1/swagger.json - null null
+2026-05-27 16:13:09.381 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 38.503ms
+2026-05-27 16:14:02.630 +05:30 [INF] Now listening on: https://localhost:7239
+2026-05-27 16:14:02.757 +05:30 [INF] Now listening on: http://localhost:5167
+2026-05-27 16:14:02.869 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-27 16:14:03.755 +05:30 [INF] Hosting environment: Development
+2026-05-27 16:14:03.757 +05:30 [INF] Content root path: C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.API
+2026-05-27 16:14:03.874 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/swagger/index.html - null null
+2026-05-27 16:14:04.259 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/swagger/index.html - 200 null text/html;charset=utf-8 386.5274ms
+2026-05-27 16:14:04.277 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-27 16:14:04.277 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/_vs/browserLink - null null
+2026-05-27 16:14:04.322 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 45.0653ms
+2026-05-27 16:14:04.442 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 164.7441ms
+2026-05-27 16:14:04.487 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/swagger/v1/swagger.json - null null
+2026-05-27 16:14:04.504 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.4678ms
+2026-05-27 16:14:11.948 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/WeatherForecast - null null
+2026-05-27 16:14:11.958 +05:30 [INF] Executing endpoint 'PremiumCalculator.API.Controllers.WeatherForecastController.Get (PremiumCalculator.API)'
+2026-05-27 16:14:11.979 +05:30 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[PremiumCalculator.API.WeatherForecast] Get() on controller PremiumCalculator.API.Controllers.WeatherForecastController (PremiumCalculator.API).
+2026-05-27 16:14:11.990 +05:30 [INF] Executing ObjectResult, writing value of type 'PremiumCalculator.API.WeatherForecast[]'.
+2026-05-27 16:14:12.011 +05:30 [INF] Executed action PremiumCalculator.API.Controllers.WeatherForecastController.Get (PremiumCalculator.API) in 26.2322ms
+2026-05-27 16:14:12.013 +05:30 [INF] Executed endpoint 'PremiumCalculator.API.Controllers.WeatherForecastController.Get (PremiumCalculator.API)'
+2026-05-27 16:14:12.014 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/WeatherForecast - 200 null application/json; charset=utf-8 66.331ms
+2026-05-27 16:15:10.674 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/swagger/index.html - null null
+2026-05-27 16:15:10.724 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/swagger/index.html - 200 null text/html;charset=utf-8 50.1259ms
+2026-05-27 16:15:10.781 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-27 16:15:10.786 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/_vs/browserLink - null null
+2026-05-27 16:15:10.808 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 26.3464ms
+2026-05-27 16:15:10.828 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.4749ms
+2026-05-27 16:15:10.953 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7239/swagger/v1/swagger.json - null null
+2026-05-27 16:15:10.961 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7239/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.682ms
+2026-05-27 16:15:39.913 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7239/api/premium/calculate - null null
+2026-05-27 16:15:39.919 +05:30 [INF] CORS policy execution successful.
+2026-05-27 16:15:39.921 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7239/api/premium/calculate - 204 null null 8.4367ms
+2026-05-27 16:15:39.923 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7239/api/premium/calculate - application/json 104
+2026-05-27 16:15:39.930 +05:30 [INF] CORS policy execution successful.
+2026-05-27 16:15:39.933 +05:30 [INF] Executing endpoint 'PremiumCalculator.API.Controllers.PremiumController.Calculate (PremiumCalculator.API)'
+2026-05-27 16:15:39.942 +05:30 [INF] Route matched with {action = "Calculate", controller = "Premium"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Calculate(PremiumCalculator.Core.Models.MemberModel) on controller PremiumCalculator.API.Controllers.PremiumController (PremiumCalculator.API).
+2026-05-27 16:15:40.114 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-05-27 16:15:40.132 +05:30 [INF] Executed action PremiumCalculator.API.Controllers.PremiumController.Calculate (PremiumCalculator.API) in 186.6119ms
+2026-05-27 16:15:40.134 +05:30 [INF] Executed endpoint 'PremiumCalculator.API.Controllers.PremiumController.Calculate (PremiumCalculator.API)'
+2026-05-27 16:15:40.135 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7239/api/premium/calculate - 400 null application/problem+json; charset=utf-8 212.0478ms

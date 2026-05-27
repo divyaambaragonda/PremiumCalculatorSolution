@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "PremiumCalculator.Web\\PremiumCalculator.Web.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "PremiumCalculator.API\\PremiumCalculator.API.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

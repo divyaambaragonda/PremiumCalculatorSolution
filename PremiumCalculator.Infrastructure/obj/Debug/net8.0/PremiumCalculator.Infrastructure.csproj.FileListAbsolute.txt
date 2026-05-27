@@ -1,0 +1,15 @@
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Infrastructure\bin\Debug\net8.0\PremiumCalculator.Infrastructure.deps.json
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Infrastructure\bin\Debug\net8.0\PremiumCalculator.Infrastructure.dll
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Infrastructure\bin\Debug\net8.0\PremiumCalculator.Infrastructure.pdb
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Infrastructure\bin\Debug\net8.0\PremiumCalculator.Core.dll
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Infrastructure\bin\Debug\net8.0\PremiumCalculator.Core.pdb
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Infrastructure\obj\Debug\net8.0\PremiumCalculator.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Infrastructure\obj\Debug\net8.0\PremiumCalculator.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Infrastructure\obj\Debug\net8.0\PremiumCalculator.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Infrastructure\obj\Debug\net8.0\PremiumCalculator.Infrastructure.AssemblyInfo.cs
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Infrastructure\obj\Debug\net8.0\PremiumCalculator.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Infrastructure\obj\Debug\net8.0\PremiumC.5C45E3B6.Up2Date
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Infrastructure\obj\Debug\net8.0\PremiumCalculator.Infrastructure.dll
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Infrastructure\obj\Debug\net8.0\refint\PremiumCalculator.Infrastructure.dll
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Infrastructure\obj\Debug\net8.0\PremiumCalculator.Infrastructure.pdb
+C:\Users\divya.a\Downloads\PremiumCalculatorSolution\PremiumCalculator.Infrastructure\obj\Debug\net8.0\ref\PremiumCalculator.Infrastructure.dll
