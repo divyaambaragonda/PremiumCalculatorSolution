@@ -156,7 +156,7 @@ Run the application.
 ## Step 5
 Swagger UI can be accessed using:
 text
-https://localhost:<port>/swagger
+https://localhost:7239/swagger
 
 # Assumptions
 - Occupation data is static for this project.
